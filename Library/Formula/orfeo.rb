@@ -7,7 +7,7 @@ class Orfeo < Formula
   depends_on "cmake" => :build
   depends_on :python => :optional
   depends_on "fltk"
-  depends_on "gdal"
+  depends_on "gdal1"
   depends_on "qt"
 
   option "examples", "Compile and install various examples"
